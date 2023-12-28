@@ -1,9 +1,9 @@
-# Multiplication Instruction Benchmark
+# Multiplication Instructions Benchmark
 
 Usage
 
 - `mul ecx` v.s. `mul rcx`: `./bench96bit mul`
-- `imul edx, ecx` v.s. `imul rdx, rcx`: `./bench96bit mul`
+- `imul edx, ecx` v.s. `imul rdx, rcx`: `./bench96bit imul`
 - `rbx` steps 44 bytes each time, 5x mul64 + 1x mul32
   ```
    48 f7 23                mulq   (%rbx)
